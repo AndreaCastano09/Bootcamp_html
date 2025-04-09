@@ -1,13 +1,52 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi web</title>
+    <title>Mi página personal</title>
 </head>
 <body>
-    <h1>¡Hola mundo!</h1>
-    <h2>¡Hola mundo!</h2>
-    <h3></h3>
+    <header>
+        <h1>¡Hola, Soy Andrea </h1>
+        <nav>
+            <a href="#sobremi">Sobre mí</a>
+            <a href="#Contacto">Contacto</a>
+            <!-- <a href="https://google.com" target="_blank">Ir a Google</a> -->
+        </nav>
+    </header>
+
+    <main>
+        <section id="sobremi">
+            <h2>Sobre mí</h2>
+            <p>Me gusta programar, y me gusta estudiar.</p>
+        </section>
+
+        <article>
+            <h2>Mi hobby</h2>
+            <p>Uno de mis pasatiempos favoritos programar</p>
+        </article>
+
+        <section id="Contacto">
+            <h2>Contactame</h2>
+            <form>
+                <label for="nombre">Nombre:</label><br>
+                <input type="text" name="nombre" id="nombre"><br><br>
+                <label for="correo">Correo</label><br>
+                <input type="text" name="correo" id="correo"><br><br>
+                <label for="mensaje">Mensaje</label><br>
+                <textarea name="mensaje" id="mensaje" rows="4" cols="30">
+
+                </textarea><br><br>
+
+                <button type="submit">Enviar</button>
+            </form>
+
+
+        </section>
+
+    </main>
+    <footer>
+        <p>&copy; 2025 Andrea Castaño</p>
+    </footer>
 </body>
 </html>
